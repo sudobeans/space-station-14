@@ -146,7 +146,7 @@ public sealed partial class GuidebookWindow : FancyWindow, ILinkClickHandler
             Tree.SetSelectedIndex(item?.Index);
         }
 
-        return sameAsLastUpdate;
+        return !sameAsLastUpdate;
     }
 
     /// <summary>
